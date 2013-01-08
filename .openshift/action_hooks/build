@@ -6,8 +6,8 @@
 if [ -f $OPENSHIFT_REPO_DIR/rebuild ]
 then
   cd $OPENSHIFT_REPO_DIR/
+  . $OPENSHIFT_REPO_DIR/setpath
   virtualenv .
-  export PYTHON_EGG_CACHE=$OPENSHIFT_TMP_DIR/.python-eggs PYTHONPATH=$OPENSHIFT_REPO_DIR/lib/python2.6/site-packages
   ./bin/easy_install lxml
   ./bin/easy_install pil
   ./bin/easy_install psycopg2

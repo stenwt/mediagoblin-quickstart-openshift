@@ -1,0 +1,2 @@
+export PYTHONPATH="$OPENSHIFT_REPO_DIR/lib/python2.6/site-packages:$OPENSHIFT_REPO_DIR"
+export PYTHON_EGG_CACHE=$OPENSHIFT_TMP_DIR/.python-eggs

@@ -4,7 +4,7 @@
 # $OPENSHIFT_INTERNAL_IP:8080
 
 cd $OPENSHIFT_REPO_DIR/
+. $OPENSHIFT_REPO_DIR/setpath
 virtualenv .
-export PYTHONPATH=$OPENSHIFT_REPO_DIR/lib/python2.6/site-packages PYTHON_EGG_CACHE=$OPENSHIFT_TMP_DIR/.python-eggs
 ./lazyserver.sh --server-name=openshift >> $OPENSHIFT_DIY_LOG_DIR/server.log 2>&1 &
 
