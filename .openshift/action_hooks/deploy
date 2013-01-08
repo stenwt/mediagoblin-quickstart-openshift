@@ -3,3 +3,31 @@
 # build hook has been run but before the application has been started back
 # up again.  This script gets executed directly, so it could be python, php,
 # ruby, etc.
+
+## Where to store uploads:
+STORAGE=${OPENSHIFT_DATA_DIR}gmg-public
+
+cd $OPENSHIFT_REPO_DIR/
+
+## MG recommends not editing these files in place
+cp paste.ini paste_local.ini
+cp mediagoblin.ini mediagoblin_local.ini
+
+## if not already done, add a paster config
+if [ $(grep -c openshift paste_local.ini) -ne 1 ]
+then
+  echo "[server:openshift]" >> paste_local.ini
+  echo "use = egg:Paste#http" >> paste_local.ini
+  echo "host = $OPENSHIFT_INTERNAL_IP" >> paste_local.ini
+  echo "port = 8080" >> paste_local.ini
+else ## if the config is there, update the IP address
+  sed "/\[server:openshift\]/{N;N;s/host.*/host\ =\ $OPENSHIFT_INTERNAL_IP/}" paste_local.ini
+fi
+
+## stuff the SQL config into mediagoblin.ini
+sed -i "s#^.*sql_engine\ =\ postgresql.*#sql_engine\ =\ $OPENSHIFT_POSTGRESQL_DB_URL$OPENSHIFT_APP_NAME#" mediagoblin_local.ini
+
+## point the GMG file storage at the data dir, so it doesn't get wiped out on every git push
+[ -d $OPENSHIFT_DATA_DIR/gmg-public ] || mkdir -p $OPENSHIFT_DATA_DIR/gmg-public
+sed -i "s#^base_dir.*public#base_dir\ =\ $STORAGE#" mediagoblin_local.ini
+sed -i "s#^document_root.*public/#document_root\ =\ $STORAGE#" paste_local.ini

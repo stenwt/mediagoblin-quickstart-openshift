@@ -1,0 +1,89 @@
+Metadata-Version: 1.0
+Name: lxml
+Version: 3.1beta1
+Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
+Home-page: http://lxml.de/
+Author: lxml dev team
+Author-email: lxml-dev@lxml.de
+License: UNKNOWN
+Download-URL: http://pypi.python.org/packages/source/l/lxml/lxml-3.1beta1.tar.gz
+Description: lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries.  It
+        provides safe and convenient access to these libraries using the ElementTree
+        API.
+        
+        It extends the ElementTree API significantly to offer support for XPath,
+        RelaxNG, XML Schema, XSLT, C14N and much more.
+        
+        To contact the project, go to the `project home page
+        <http://lxml.de/>`_ or see our bug tracker at
+        https://launchpad.net/lxml
+        
+        In case you want to use the current in-development version of lxml,
+        you can get it from the github repository at
+        https://github.com/lxml/lxml .  Note that this requires Cython to
+        build the sources, see the build instructions on the project home
+        page.  To the same end, running ``easy_install lxml==dev`` will
+        install lxml from
+        https://github.com/lxml/lxml/tarball/master#egg=lxml-dev if you have
+        an appropriate version of Cython installed.
+        
+        3.1beta1 (2012-12-21)
+        =====================
+        
+        Features added
+        --------------
+        
+        * New build-time option ``--with-unicode-strings`` for Python 2 that
+          makes the API always return Unicode strings for names and text
+          instead of byte strings for plain ASCII content.
+        
+        * New incremental XML file writing API ``etree.xmlfile()``.
+        
+        * E factory in lxml.objectify is callable to simplify the creation of
+          tags with non-identifier names without having to resort to getattr().
+        
+        Bugs fixed
+        ----------
+        
+        * When starting from a non-namespaced element in lxml.objectify, searching
+          for a child without explicitly specifying a namespace incorrectly found
+          namespaced elements with the requested local name, instead of restricting
+          the search to non-namespaced children.
+        
+        * GH#85: Deprecation warnings were fixed for Python 3.x.
+        
+        * GH#33: lxml.html.fromstring() failed to accept bytes input in Py3.
+        
+        * LP#1080792: Static build of libxml2 2.9.0 failed due to missing file.
+        
+        Other changes
+        -------------
+        
+        * The externally useless class ``_ObjectifyElementMakerCaller`` was
+          removed from the module API of lxml.objectify.
+        
+        * LP#1075622: lxml.builder is faster for adding text to elements with
+          many children.  Patch by Anders Hammarquist.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: C
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

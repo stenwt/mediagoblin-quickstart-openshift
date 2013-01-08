@@ -1,0 +1,9 @@
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mediagoblin==0.3.3.dev','console_scripts','gmg'
+__requires__ = 'mediagoblin==0.3.3.dev'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('mediagoblin==0.3.3.dev', 'console_scripts', 'gmg')()
+)
