@@ -1,53 +1,41 @@
-Feel free to change or remove this file, it is informational only.
+========
+ README
+========
 
-Get started
-===========
-1. Add framework of choice to your repo.
-2. Modify .openshift/action_hooks/start to start your application.
-   The application is required to bind to $OPENSHIFT_INTERNAL_IP:8080.
-3. Modify .openshift/action_hooks/stop to stop your application.
-4. Commit and push your changes.
+What is GNU MediaGoblin?
+========================
 
-Repo layout
-===========
-static/ - Externally exposed static content goes here
-.openshift/action_hooks/start - Script that gets run to start your application
-.openshift/action_hooks/stop - Script that gets run to stop your application
-.openshift/action_hooks/pre_build - Script that gets run every git push before the build
-.openshift/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
-.openshift/action_hooks/deploy - Script that gets run every git push after build but before the app is restarted
-.openshift/action_hooks/post_deploy - Script that gets run every git push after the app is restarted
-
-Notes about layout
-==================
-Please leave the static directory in place (alter but do not delete) but feel
-free to create additional directories if needed.
-
-Note: Every time you push, everything in your remote repo dir gets recreated
-      please store long term items (like an sqlite database) in the OpenShift
-      data directory, which will persist between pushes of your repo.
-      The OpenShift data directory is accessible relative to the remote repo
-      directory (../data) or using a path constructed as
-      $OPENSHIFT_HOMEDIR/app-root/data.
+* Initially, a place to store all your photos that’s as awesome as, if
+  not more awesome than, existing network services (Flickr, SmugMug,
+  Picasa, etc)
+* Customizable!
+* A place for people to collaborate and show off original and derived
+  creations.  Free, as in freedom.  We’re a GNU project after all.
+* Later, a place for all sorts of media, such as video, music, etc hosting.
+* Later, federated with OStatus!
 
 
-Environment Variables
-=====================
+Is it ready for me to use?
+==========================
 
-OpenShift provides several environment variables to reference for ease
-of use.  The following list are some common variables but far from exhaustive:
-
-    $OPENSHIFT_INTERNAL_IP            - IP Address assigned to the application
-    $OPENSHIFT_APP_NAME               - Application name
-    $OPENSHIFT_HOMEDIR/diy-0.1        - Application dir
-    $OPENSHIFT_HOMEDIR/app-root/data  - For persistent storage (between pushes)
-    $OPENSHIFT_TMP_DIR                - Temp storage (unmodified files deleted after 10 days)
-
-To get a full list of environment variables, simply add a line in your
-.openshift/action_hooks/build script that says "export" and push.
+Yes!  But with caveats.  The software is usable and there are instances
+running, but it's still in its early stages.
 
 
-Additional information
-======================
+Can I help/hang out/participate/whisper sweet nothings in your ear?
+===================================================================
 
-Link to additional information will be here, when we have it :)
+Yes!  Please join us and hang out!  For more information on where we
+hang out, see `our Join page <http://mediagoblin.org/join/>`_
+
+
+Where is the documentation?
+===========================
+
+The beginnings of a site administration manual is located in the ``docs/``
+directory in HTML, Texinfo, and source (Restructured Text) forms.  It's
+also available online at http://docs.mediagoblin.org/ in HTML form.
+
+Contributor/developer documentation as well as documentation on the
+project processes and infrastructure is located on 
+`the wiki <http://wiki.mediagoblin.org/>`_.

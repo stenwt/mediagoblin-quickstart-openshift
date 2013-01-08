@@ -1,0 +1,1094 @@
+# Translations template for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# 
+# Translators:
+# Martin Zatroch <zatroch.martin@gmail.com>, 2012.
+# Morten Juhl-Johansen Zölde-Fejér <morten@writtenandread.net>, 2012.
+# Olle Jonsson <olle.jonsson@gmail.com>, 2012.
+# Tanja Trudslev <tanja.trudslev@gmail.com>, 2012.
+#   <zatroch.martin@gmail.com>, 2011-2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU MediaGoblin\n"
+"Report-Msgid-Bugs-To: http://issues.mediagoblin.org/\n"
+"POT-Creation-Date: 2012-12-20 09:18-0600\n"
+"PO-Revision-Date: 2012-12-20 15:14+0000\n"
+"Last-Translator: cwebber <cwebber@dustycloud.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: mediagoblin/auth/forms.py:25 mediagoblin/auth/forms.py:41
+msgid "Username"
+msgstr "Brugernavn"
+
+#: mediagoblin/auth/forms.py:30 mediagoblin/auth/forms.py:45
+msgid "Password"
+msgstr "Kodeord"
+
+#: mediagoblin/auth/forms.py:34
+msgid "Email address"
+msgstr "Email adresse"
+
+#: mediagoblin/auth/forms.py:51
+msgid "Username or email"
+msgstr "Brugernavn eller email"
+
+#: mediagoblin/auth/forms.py:58
+msgid "Incorrect input"
+msgstr "Forkert input"
+
+#: mediagoblin/auth/views.py:55
+msgid "Sorry, registration is disabled on this instance."
+msgstr "Desværre, registrering er ikke muligt på denne instans"
+
+#: mediagoblin/auth/views.py:75
+msgid "Sorry, a user with that name already exists."
+msgstr "Desværre, det brugernavn er allerede brugt"
+
+#: mediagoblin/auth/views.py:79
+msgid "Sorry, a user with that email address already exists."
+msgstr "Desværre, en bruger er allerede oprettet for den email"
+
+#: mediagoblin/auth/views.py:182
+msgid ""
+"Your email address has been verified. You may now login, edit your profile, "
+"and submit images!"
+msgstr "Din email adresse er blevet bekræftet. Du kan nu logge på, ændre din profil, og indsende billeder!"
+
+#: mediagoblin/auth/views.py:188
+msgid "The verification key or user id is incorrect"
+msgstr "Bekræftelsesnøglen eller brugerid er forkert"
+
+#: mediagoblin/auth/views.py:206
+msgid "You must be logged in so we know who to send the email to!"
+msgstr "Du er nødt til at være logget ind, så vi ved hvem vi skal emaile!"
+
+#: mediagoblin/auth/views.py:214
+msgid "You've already verified your email address!"
+msgstr "Du har allerede bekræftet din email adresse!"
+
+#: mediagoblin/auth/views.py:227
+msgid "Resent your verification email."
+msgstr "Email til godkendelse sendt igen."
+
+#: mediagoblin/auth/views.py:263
+msgid ""
+"An email has been sent with instructions on how to change your password."
+msgstr "En email er blevet sendt med instruktioner til at ændre dit kodeord."
+
+#: mediagoblin/auth/views.py:273
+msgid ""
+"Could not send password recovery email as your username is inactive or your "
+"account's email address has not been verified."
+msgstr "Vi kunne ikke sende en kodeords nulstillings email da dit brugernavn er inaktivt, eller din konto's email adresse er ikke blevet godkendt."
+
+#: mediagoblin/auth/views.py:285
+msgid "Couldn't find someone with that username or email."
+msgstr "Vi kunne ikke dit brugernavn eller email."
+
+#: mediagoblin/auth/views.py:333
+msgid "You can now log in using your new password."
+msgstr "Du kan nu logge ind med dit nye kodeord."
+
+#: mediagoblin/edit/forms.py:25 mediagoblin/edit/forms.py:82
+#: mediagoblin/submit/forms.py:28 mediagoblin/submit/forms.py:47
+#: mediagoblin/user_pages/forms.py:40
+msgid "Title"
+msgstr "Titel"
+
+#: mediagoblin/edit/forms.py:28 mediagoblin/submit/forms.py:31
+msgid "Description of this work"
+msgstr "Beskrivelse af arbejdet"
+
+#: mediagoblin/edit/forms.py:29 mediagoblin/edit/forms.py:52
+#: mediagoblin/edit/forms.py:86 mediagoblin/submit/forms.py:32
+#: mediagoblin/submit/forms.py:51 mediagoblin/user_pages/forms.py:44
+msgid ""
+"You can use\n"
+"                      <a href=\"http://daringfireball.net/projects/markdown/basics\">\n"
+"                      Markdown</a> for formatting."
+msgstr "Du kan bruge\n                      <a href=\"http://daringfireball.net/projects/markdown/basics\">\n                      Markdown</a> til formattering."
+
+#: mediagoblin/edit/forms.py:33 mediagoblin/submit/forms.py:36
+msgid "Tags"
+msgstr "Tags"
+
+#: mediagoblin/edit/forms.py:35 mediagoblin/submit/forms.py:38
+msgid "Separate tags by commas."
+msgstr "Separer tags med kommaer."
+
+#: mediagoblin/edit/forms.py:38 mediagoblin/edit/forms.py:90
+msgid "Slug"
+msgstr "Unikátna časť adresy"
+
+#: mediagoblin/edit/forms.py:39 mediagoblin/edit/forms.py:91
+msgid "The slug can't be empty"
+msgstr "Unikátna časť adresy nesmie byť prázdna"
+
+#: mediagoblin/edit/forms.py:40
+msgid ""
+"The title part of this media's address. You usually don't need to change "
+"this."
+msgstr "Titeldelen af dette medie's adresse. Du behøver normalt ikke ændre dette."
+
+#: mediagoblin/edit/forms.py:44 mediagoblin/submit/forms.py:41
+#: mediagoblin/templates/mediagoblin/utils/license.html:20
+msgid "License"
+msgstr "Licens"
+
+#: mediagoblin/edit/forms.py:50
+msgid "Bio"
+msgstr "Bio"
+
+#: mediagoblin/edit/forms.py:56
+msgid "Website"
+msgstr "Websted"
+
+#: mediagoblin/edit/forms.py:58
+msgid "This address contains errors"
+msgstr "Denne adresse indeholder fejl"
+
+#: mediagoblin/edit/forms.py:63
+msgid "Old password"
+msgstr "Gammelt kodeord"
+
+#: mediagoblin/edit/forms.py:64
+msgid "Enter your old password to prove you own this account."
+msgstr "Skriv dit gamle kodeord for at bevise det er din konto."
+
+#: mediagoblin/edit/forms.py:67
+msgid "New password"
+msgstr "Ny kodeord"
+
+#: mediagoblin/edit/forms.py:71
+msgid "Email me when others comment on my media"
+msgstr "Email mig når andre kommenterer på mine medier"
+
+#: mediagoblin/edit/forms.py:83
+msgid "The title can't be empty"
+msgstr "Titlen kan ikke være tom"
+
+#: mediagoblin/edit/forms.py:85 mediagoblin/submit/forms.py:50
+#: mediagoblin/user_pages/forms.py:43
+msgid "Description of this collection"
+msgstr "Beskrivelse af denne samling"
+
+#: mediagoblin/edit/forms.py:92
+msgid ""
+"The title part of this collection's address. You usually don't need to "
+"change this."
+msgstr "Titeldelen af denne samlings's adresse. Du behøver normalt ikke ændre dette."
+
+#: mediagoblin/edit/views.py:65
+msgid "An entry with that slug already exists for this user."
+msgstr "Položku s rovnakou unikátnou časťou adresy už niekde máš."
+
+#: mediagoblin/edit/views.py:86
+msgid "You are editing another user's media. Proceed with caution."
+msgstr "Du er ved at ændre en anden brugers' medier. Pas på."
+
+#: mediagoblin/edit/views.py:156
+#, python-format
+msgid "You added the attachment %s!"
+msgstr "Príloha %s pridaná!"
+
+#: mediagoblin/edit/views.py:181
+msgid "You are editing a user's profile. Proceed with caution."
+msgstr "Du er ved at ændre en bruger's profil. Pas på."
+
+#: mediagoblin/edit/views.py:197
+msgid "Profile changes saved"
+msgstr "Profilændringer gemt"
+
+#: mediagoblin/edit/views.py:226 mediagoblin/edit/views.py:246
+msgid "Account settings saved"
+msgstr "Kontoindstillinger gemt"
+
+#: mediagoblin/edit/views.py:251
+msgid "Wrong password"
+msgstr "Forkert kodeord"
+
+#: mediagoblin/edit/views.py:287 mediagoblin/submit/views.py:211
+#: mediagoblin/user_pages/views.py:210
+#, python-format
+msgid "You already have a collection called \"%s\"!"
+msgstr "Du har allerede en samling ved navn \"%s\"!"
+
+#: mediagoblin/edit/views.py:291
+msgid "A collection with that slug already exists for this user."
+msgstr "Kolekcia s týmto štítkom sa už u teba vyskytuje."
+
+#: mediagoblin/edit/views.py:308
+msgid "You are editing another user's collection. Proceed with caution."
+msgstr "Du er ved at ændre en anden bruger's samling. Pas på."
+
+#: mediagoblin/gmg_commands/theme.py:58
+msgid "Cannot link theme... no theme set\n"
+msgstr "Kan ikke linke til tema... intet tema sat\n"
+
+#: mediagoblin/gmg_commands/theme.py:71
+msgid "No asset directory for this theme\n"
+msgstr "Žiadny priečinok položiek pre túto tému\n"
+
+#: mediagoblin/gmg_commands/theme.py:74
+msgid "However, old link directory symlink found; removed.\n"
+msgstr "Hoci, starý symbolický odkaz na priečinok nájdený; odstránený.\n"
+
+#: mediagoblin/media_types/__init__.py:60
+#: mediagoblin/media_types/__init__.py:101
+msgid "Sorry, I don't support that file type :("
+msgstr "Desværre, jeg understøtter ikke den filtype :("
+
+#: mediagoblin/media_types/video/processing.py:35
+msgid "Video transcoding failed"
+msgstr "Konvertovanie videa zlyhalo"
+
+#: mediagoblin/plugins/oauth/forms.py:26
+msgid "Client ID"
+msgstr "Klientské ID"
+
+#: mediagoblin/plugins/oauth/forms.py:28
+msgid "Next URL"
+msgstr "Næste URL"
+
+#: mediagoblin/plugins/oauth/forms.py:30
+msgid "Allow"
+msgstr "Tillad"
+
+#: mediagoblin/plugins/oauth/forms.py:31
+msgid "Deny"
+msgstr "Forbyd"
+
+#: mediagoblin/plugins/oauth/forms.py:35
+msgid "Name"
+msgstr "Navn"
+
+#: mediagoblin/plugins/oauth/forms.py:36
+msgid "The name of the OAuth client"
+msgstr "Navnet af OAuth klienten"
+
+#: mediagoblin/plugins/oauth/forms.py:37
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: mediagoblin/plugins/oauth/forms.py:39
+msgid ""
+"This will be visible to users allowing your\n"
+"                application to authenticate as them."
+msgstr "Toto bude viditeľné pre používateľov,\n ktorí sa identifikujú sami cez tvoju aplikáciu."
+
+#: mediagoblin/plugins/oauth/forms.py:41
+msgid "Type"
+msgstr "Type"
+
+#: mediagoblin/plugins/oauth/forms.py:46
+msgid ""
+"<strong>Confidential</strong> - The client can\n"
+"                make requests to the GNU MediaGoblin instance that can not be\n"
+"                intercepted by the user agent (e.g. server-side client).<br />\n"
+"                <strong>Public</strong> - The client can't make confidential\n"
+"                requests to the GNU MediaGoblin instance (e.g. client-side\n"
+"                JavaScript client)."
+msgstr "<strong>Dôverné</strong> - Klient môže\nvytvárať požiadavky na inštanciu GNU MediaGoblin, ktoré nemôžu byť\nzachytené používateľským agentom (napr. klient na strane servera).<br />\n<strong>Verejné</strong> - Klient nemôže vytvárať dôverné\npožiadavky voči GNU MediaGoblin inštancii (napr. JavaScript-ový klient\n na klientskej strane)."
+
+#: mediagoblin/plugins/oauth/forms.py:53
+msgid "Redirect URI"
+msgstr "Presmerovacie URI"
+
+#: mediagoblin/plugins/oauth/forms.py:55
+msgid ""
+"The redirect URI for the applications, this field\n"
+"            is <strong>required</strong> for public clients."
+msgstr "Presmerovacie URI pre aplikácie, toto pole\nj <strong>požadované</strong> pre verejných klientov."
+
+#: mediagoblin/plugins/oauth/forms.py:67
+msgid "This field is required for public clients"
+msgstr "Dette felt er nødvendigt for offentlige klienter"
+
+#: mediagoblin/plugins/oauth/views.py:60
+msgid "The client {0} has been registered!"
+msgstr "Klienten {0} er blevet registreret!"
+
+#: mediagoblin/processing/__init__.py:138
+msgid "Invalid file given for media type."
+msgstr "Forkert fil for medietypen."
+
+#: mediagoblin/submit/forms.py:26
+msgid "File"
+msgstr "Fil"
+
+#: mediagoblin/submit/views.py:57
+msgid "You must provide a file."
+msgstr "Du må give mig en fil"
+
+#: mediagoblin/submit/views.py:164
+msgid "Woohoo! Submitted!"
+msgstr "Juhuu! Delt!"
+
+#: mediagoblin/submit/views.py:215
+#, python-format
+msgid "Collection \"%s\" added!"
+msgstr "Kolekcia \"%s\" pridaná!"
+
+#: mediagoblin/templates/mediagoblin/base.html:48
+msgid "MediaGoblin logo"
+msgstr "MediaGoblin logo"
+
+#: mediagoblin/templates/mediagoblin/base.html:54
+#, python-format
+msgid "<a href=\"%(user_url)s\">%(user_name)s</a>'s account"
+msgstr "Účet používateľa <a href=\"%(user_url)s\">%(user_name)s</a>"
+
+#: mediagoblin/templates/mediagoblin/base.html:60
+msgid "log out"
+msgstr "odhlásiť sa"
+
+#: mediagoblin/templates/mediagoblin/base.html:62
+#: mediagoblin/templates/mediagoblin/root.html:28
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:151
+msgid "Add media"
+msgstr "Pridať výtvor"
+
+#: mediagoblin/templates/mediagoblin/base.html:68
+msgid "Verify your email!"
+msgstr "Bekræft din email!"
+
+#: mediagoblin/templates/mediagoblin/base.html:73
+#: mediagoblin/templates/mediagoblin/auth/login.html:28
+#: mediagoblin/templates/mediagoblin/auth/login.html:36
+#: mediagoblin/templates/mediagoblin/auth/login.html:54
+msgid "Log in"
+msgstr "Log ind"
+
+#: mediagoblin/templates/mediagoblin/base.html:87
+msgid ""
+"Powered by <a href=\"http://mediagoblin.org\">MediaGoblin</a>, a <a "
+"href=\"http://gnu.org/\">GNU</a> project."
+msgstr "Poháňa nás <a href=\"http://mediagoblin.org\">MediaGoblin</a>, súčasť projektu <a href=\"http://gnu.org/\">GNU</a>."
+
+#: mediagoblin/templates/mediagoblin/base.html:90
+#, python-format
+msgid ""
+"Released under the <a "
+"href=\"http://www.fsf.org/licensing/licenses/agpl-3.0.html\">AGPL</a>. <a "
+"href=\"%(source_link)s\">Source code</a> available."
+msgstr "Vydané pod <a href=\"http://www.fsf.org/licensing/licenses/agpl-3.0.html\">AGPL</a>. <a href=\"%(source_link)s\">Zdrojový kód</a> dostupný."
+
+#: mediagoblin/templates/mediagoblin/error.html:24
+msgid "Image of goblin stressing out"
+msgstr "Obrázok hysterického goblina"
+
+#: mediagoblin/templates/mediagoblin/root.html:25
+msgid "Actions"
+msgstr "Úkony"
+
+#: mediagoblin/templates/mediagoblin/root.html:31
+msgid "Create new collection"
+msgstr "Vytvoriť novú zbierku"
+
+#: mediagoblin/templates/mediagoblin/root.html:34
+msgid "Change account settings"
+msgstr "Zmeniť nastavenia účtu"
+
+#: mediagoblin/templates/mediagoblin/root.html:38
+#: mediagoblin/templates/mediagoblin/root.html:44
+#: mediagoblin/templates/mediagoblin/admin/panel.html:21
+#: mediagoblin/templates/mediagoblin/admin/panel.html:26
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:21
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:26
+msgid "Media processing panel"
+msgstr "Sekcia spracovania výtvorov"
+
+#: mediagoblin/templates/mediagoblin/root.html:51
+msgid "Explore"
+msgstr "Udforsk"
+
+#: mediagoblin/templates/mediagoblin/root.html:53
+msgid "Hi there, welcome to this MediaGoblin site!"
+msgstr "Hey, velkommen til denne MediaGoblin side!"
+
+#: mediagoblin/templates/mediagoblin/root.html:55
+msgid ""
+"This site is running <a href=\"http://mediagoblin.org\">MediaGoblin</a>, an "
+"extraordinarily great piece of media hosting software."
+msgstr "Táto stránka používa <a href=\"http://mediagoblin.org\">MediaGoblin</a>, výnimočne skvelý kus softvéru na hostovanie médií."
+
+#: mediagoblin/templates/mediagoblin/root.html:56
+msgid ""
+"To add your own media, place comments, and more, you can log in with your "
+"MediaGoblin account."
+msgstr "For at tilføje dine egne medier, skrive kommentarer, og mere, du kan logge ind med din MediaGoblin konto."
+
+#: mediagoblin/templates/mediagoblin/root.html:58
+msgid "Don't have one yet? It's easy!"
+msgstr "Har du ikke en endnu? Det er let!"
+
+#: mediagoblin/templates/mediagoblin/root.html:59
+#, python-format
+msgid ""
+"<a class=\"button_action_highlight\" href=\"%(register_url)s\">Create an account at this site</a>\n"
+"        or\n"
+"        <a class=\"button_action\" href=\"http://wiki.mediagoblin.org/HackingHowto\">Set up MediaGoblin on your own server</a>"
+msgstr "<a class=\"button_action_highlight\" href=\"%(register_url)s\">Vytvoriť účet na tejto stránke</a>\n        alebo\n        <a class=\"button_action\" href=\"http://wiki.mediagoblin.org/HackingHowto\">Založiť MediaGoblin na vlastnom serveri</a>"
+
+#: mediagoblin/templates/mediagoblin/root.html:67
+msgid "Most recent media"
+msgstr "Najčerstvejšie výtvory"
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:29
+msgid ""
+"Here you can track the state of media being processed on this instance."
+msgstr "Tu môžeš sledovať stav médií spracovávaných na tejto inštancii."
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:32
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:32
+msgid "Media in-processing"
+msgstr "Výtvory sa spracúvajú"
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:58
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:56
+msgid "No media in-processing"
+msgstr "Žiadne výtvory sa nespracúvajú"
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:61
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:59
+msgid "These uploads failed to process:"
+msgstr "Nasledovné nahratia neprešli spracovaním:"
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:90
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:86
+msgid "No failed entries!"
+msgstr "Žiadne zlé položky!"
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:92
+msgid "Last 10 successful uploads"
+msgstr "Posledných 10 úspešných nahratí"
+
+#: mediagoblin/templates/mediagoblin/admin/panel.html:112
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:107
+msgid "No processed entries, yet!"
+msgstr "Zatiaľ žiadne spracované položky!"
+
+#: mediagoblin/templates/mediagoblin/auth/change_fp.html:28
+#: mediagoblin/templates/mediagoblin/auth/change_fp.html:36
+msgid "Set your new password"
+msgstr "Vlož svoje nové heslo"
+
+#: mediagoblin/templates/mediagoblin/auth/change_fp.html:39
+msgid "Set password"
+msgstr "Vlož heslo"
+
+#: mediagoblin/templates/mediagoblin/auth/forgot_password.html:23
+#: mediagoblin/templates/mediagoblin/auth/forgot_password.html:31
+msgid "Recover password"
+msgstr "Obnoviť heslo"
+
+#: mediagoblin/templates/mediagoblin/auth/forgot_password.html:34
+msgid "Send instructions"
+msgstr "Zaslať postup"
+
+#: mediagoblin/templates/mediagoblin/auth/fp_verification_email.txt:19
+#, python-format
+msgid ""
+"Hi %(username)s,\n"
+"\n"
+"to change your GNU MediaGoblin password, open the following URL in \n"
+"your web browser:\n"
+"\n"
+"%(verification_url)s\n"
+"\n"
+"If you think this is an error, just ignore this email and continue being\n"
+"a happy goblin!"
+msgstr "Ahoj %(username)s,\n\npre zmenu svojho hesla k GNU MediaGoblin účtu, otvor nasledujúci odkaz vo svojom prehliadači:\n\n%(verification_url)s\n\nPokiaľ si myslíš, že došlo k omylu, tak jednoducho ignoruj túto správu a buď šťastným goblinom!"
+
+#: mediagoblin/templates/mediagoblin/auth/login.html:39
+msgid "Logging in failed!"
+msgstr "Prihlásenie zlyhalo!"
+
+#: mediagoblin/templates/mediagoblin/auth/login.html:44
+msgid "Don't have an account yet?"
+msgstr "Har du endnu ikke en konto?"
+
+#: mediagoblin/templates/mediagoblin/auth/login.html:45
+msgid "Create one here!"
+msgstr "Opret en her!"
+
+#: mediagoblin/templates/mediagoblin/auth/login.html:51
+msgid "Forgot your password?"
+msgstr "Zabudnuté heslo?"
+
+#: mediagoblin/templates/mediagoblin/auth/register.html:28
+#: mediagoblin/templates/mediagoblin/auth/register.html:36
+msgid "Create an account!"
+msgstr "Opret en konto!"
+
+#: mediagoblin/templates/mediagoblin/auth/register.html:40
+msgid "Create"
+msgstr "Vytvoriť"
+
+#: mediagoblin/templates/mediagoblin/auth/verification_email.txt:19
+#, python-format
+msgid ""
+"Hi %(username)s,\n"
+"\n"
+"to activate your GNU MediaGoblin account, open the following URL in\n"
+"your web browser:\n"
+"\n"
+"%(verification_url)s"
+msgstr "Ahoj %(username)s,\n\npre aktiváciu tvojho GNU MediaGoblin účtu, otvor nasledujúci odkaz vo\nsvojom prehliadači:\n\n%(verification_url)s"
+
+#: mediagoblin/templates/mediagoblin/edit/attachments.html:23
+#: mediagoblin/templates/mediagoblin/edit/attachments.html:35
+#, python-format
+msgid "Editing attachments for %(media_title)s"
+msgstr "Úprava príloh pre %(media_title)s"
+
+#: mediagoblin/templates/mediagoblin/edit/attachments.html:43
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:171
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:187
+msgid "Attachments"
+msgstr "Prílohy"
+
+#: mediagoblin/templates/mediagoblin/edit/attachments.html:56
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:192
+msgid "Add attachment"
+msgstr "Pridať prílohu"
+
+#: mediagoblin/templates/mediagoblin/edit/attachments.html:60
+#: mediagoblin/templates/mediagoblin/edit/edit.html:41
+#: mediagoblin/templates/mediagoblin/edit/edit_collection.html:32
+#: mediagoblin/templates/mediagoblin/user_pages/collection_confirm_delete.html:46
+#: mediagoblin/templates/mediagoblin/user_pages/collection_item_confirm_remove.html:52
+#: mediagoblin/templates/mediagoblin/user_pages/media_collect.html:81
+#: mediagoblin/templates/mediagoblin/user_pages/media_confirm_delete.html:48
+msgid "Cancel"
+msgstr "Afbryd"
+
+#: mediagoblin/templates/mediagoblin/edit/attachments.html:62
+#: mediagoblin/templates/mediagoblin/edit/edit.html:42
+#: mediagoblin/templates/mediagoblin/edit/edit_account.html:51
+#: mediagoblin/templates/mediagoblin/edit/edit_collection.html:33
+#: mediagoblin/templates/mediagoblin/edit/edit_profile.html:41
+msgid "Save changes"
+msgstr "Gem ændringer"
+
+#: mediagoblin/templates/mediagoblin/edit/edit.html:23
+#: mediagoblin/templates/mediagoblin/edit/edit.html:35
+#, python-format
+msgid "Editing %(media_title)s"
+msgstr "Úprava %(media_title)s"
+
+#: mediagoblin/templates/mediagoblin/edit/edit_account.html:28
+#: mediagoblin/templates/mediagoblin/edit/edit_account.html:40
+#, python-format
+msgid "Changing %(username)s's account settings"
+msgstr "Mením nastavenia účtu používateľa %(username)s"
+
+#: mediagoblin/templates/mediagoblin/edit/edit_collection.html:29
+#, python-format
+msgid "Editing %(collection_title)s"
+msgstr "Úprava %(collection_title)s"
+
+#: mediagoblin/templates/mediagoblin/edit/edit_profile.html:23
+#: mediagoblin/templates/mediagoblin/edit/edit_profile.html:35
+#, python-format
+msgid "Editing %(username)s's profile"
+msgstr "Redigerer %(username)s profil"
+
+#: mediagoblin/templates/mediagoblin/listings/collection.html:30
+#: mediagoblin/templates/mediagoblin/listings/collection.html:35
+#: mediagoblin/templates/mediagoblin/listings/tag.html:30
+#: mediagoblin/templates/mediagoblin/listings/tag.html:35
+#, python-format
+msgid "Media tagged with: %(tag_name)s"
+msgstr "Výtvory označené ako: %(tag_name)s"
+
+#: mediagoblin/templates/mediagoblin/media_displays/ascii.html:34
+#: mediagoblin/templates/mediagoblin/media_displays/audio.html:56
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:136
+#: mediagoblin/templates/mediagoblin/media_displays/video.html:52
+msgid "Download"
+msgstr "Stiahnuť"
+
+#: mediagoblin/templates/mediagoblin/media_displays/ascii.html:38
+msgid "Original"
+msgstr "Originál"
+
+#: mediagoblin/templates/mediagoblin/media_displays/audio.html:44
+msgid ""
+"Sorry, this audio will not work because \n"
+"\tyour web browser does not support HTML5 \n"
+"\taudio."
+msgstr "Prepáč, tento zvukový súbor nepôjde prehrať, \n\tnakoľko tvoj prehliadač nepodporuje HTML5 \n\taudio."
+
+#: mediagoblin/templates/mediagoblin/media_displays/audio.html:47
+msgid ""
+"You can get a modern web browser that \n"
+"\tcan play the audio at <a href=\"http://getfirefox.com\">\n"
+"\t  http://getfirefox.com</a>!"
+msgstr "Môžeš získať moderný prehliadač, ktorý\n\ttento zvuk hravo prehrá <a href=\"http://getfirefox.com\">\n\t  http://getfirefox.com</a>!"
+
+#: mediagoblin/templates/mediagoblin/media_displays/audio.html:60
+#: mediagoblin/templates/mediagoblin/media_displays/video.html:56
+msgid "Original file"
+msgstr "Originálny súbor"
+
+#: mediagoblin/templates/mediagoblin/media_displays/audio.html:63
+msgid "WebM file (Vorbis codec)"
+msgstr "WebM súbor (Vorbis kodek)"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:87
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:93
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:99
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:105
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:67
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:73
+#, python-format
+msgid "Image for %(media_title)s"
+msgstr "Obrázok pre %(media_title)s"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:112
+msgid "Toggle Rotate"
+msgstr "Zapnúť rotáciu"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:113
+msgid "Perspective"
+msgstr "Perspektíva"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:116
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:117
+msgid "Front"
+msgstr "Čelo"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:120
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:121
+msgid "Top"
+msgstr "Vrch"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:124
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:125
+msgid "Side"
+msgstr "Strana"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:130
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:131
+msgid "WebGL"
+msgstr "WebGL"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:138
+msgid "Download model"
+msgstr "Stiahnuť model"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:146
+msgid "File Format"
+msgstr "Súborový formát"
+
+#: mediagoblin/templates/mediagoblin/media_displays/stl.html:148
+msgid "Object Height"
+msgstr "Výška objektu"
+
+#: mediagoblin/templates/mediagoblin/media_displays/video.html:40
+msgid ""
+"Sorry, this video will not work because \n"
+"\t    your web browser does not support HTML5 \n"
+"\t    video."
+msgstr "Prepáč, toto video nepôjde prehrať \n<span class=\"whitespace other\" title=\"Tab\">»</span>    tvoj webový prehliadač nepodporuje HTML5 \n<span class=\"whitespace other\" title=\"Tab\">»</span>    video."
+
+#: mediagoblin/templates/mediagoblin/media_displays/video.html:43
+msgid ""
+"You can get a modern web browser that \n"
+"\t    can play this video at <a href=\"http://getfirefox.com\">\n"
+"\t    http://getfirefox.com</a>!"
+msgstr "Môžeš získať moderný prehliadač, ktorý \n<span class=\"whitespace other\" title=\"Tab\">»</span>    vie prehrať toto video na <a href=\"http://getfirefox.com\">\n<span class=\"whitespace other\" title=\"Tab\">»</span>    http://getfirefox.com</a>!"
+
+#: mediagoblin/templates/mediagoblin/media_displays/video.html:59
+msgid "WebM file (640p; VP8/Vorbis)"
+msgstr "WebM súbor (640p; VP8/Vorbis)"
+
+#: mediagoblin/templates/mediagoblin/submit/collection.html:26
+msgid "Add a collection"
+msgstr "Pridať kolekciu"
+
+#: mediagoblin/templates/mediagoblin/submit/collection.html:30
+#: mediagoblin/templates/mediagoblin/submit/start.html:34
+#: mediagoblin/templates/mediagoblin/user_pages/media_collect.html:82
+msgid "Add"
+msgstr "Pridať"
+
+#: mediagoblin/templates/mediagoblin/submit/start.html:23
+#: mediagoblin/templates/mediagoblin/submit/start.html:30
+msgid "Add your media"
+msgstr "Pridaj svoj výtvor"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection.html:30
+#, python-format
+msgid "%(collection_title)s (%(username)s's collection)"
+msgstr "%(collection_title)s (kolekcia používateľa %(username)s) "
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection.html:39
+#, python-format
+msgid "%(collection_title)s by <a href=\"%(user_url)s\">%(username)s</a>"
+msgstr "%(collection_title)s od <a href=\"%(user_url)s\">%(username)s</a>"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection.html:52
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:87
+msgid "Edit"
+msgstr "Upraviť"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection.html:56
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:91
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection_confirm_delete.html:30
+#: mediagoblin/templates/mediagoblin/user_pages/media_confirm_delete.html:30
+#, python-format
+msgid "Really delete %(title)s?"
+msgstr "Skutočne odstrániť %(title)s?"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection_confirm_delete.html:47
+#: mediagoblin/templates/mediagoblin/user_pages/media_confirm_delete.html:49
+msgid "Delete permanently"
+msgstr "Odstráň permanentne"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection_item_confirm_remove.html:31
+#, python-format
+msgid "Really remove %(media_title)s from %(collection_title)s?"
+msgstr "Určite odstrániť %(media_title)s z %(collection_title)s?"
+
+#: mediagoblin/templates/mediagoblin/user_pages/collection_item_confirm_remove.html:53
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: mediagoblin/templates/mediagoblin/user_pages/comment_email.txt:19
+#, python-format
+msgid ""
+"Hi %(username)s,\n"
+"%(comment_author)s commented on your post (%(comment_url)s) at %(instance_name)s\n"
+msgstr "Ahoj %(username)s,\npoužívateľ %(comment_author)s skomentoval tvoj príspevok (%(comment_url)s) na %(instance_name)s\n"
+
+#: mediagoblin/templates/mediagoblin/user_pages/gallery.html:30
+#, python-format
+msgid "%(username)s's media"
+msgstr "Výtvory, ktoré vlastní %(username)s"
+
+#: mediagoblin/templates/mediagoblin/user_pages/gallery.html:37
+#, python-format
+msgid "<a href=\"%(user_url)s\">%(username)s</a>'s media"
+msgstr "Výtvory, ktoré vlastní <a href=\"%(user_url)s\">%(username)s</a>"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:46
+#, python-format
+msgid "❖ Browsing media by <a href=\"%(user_url)s\">%(username)s</a>"
+msgstr "❖ Prezeranie výtvorov podľa <a href=\"%(user_url)s\">%(username)s</a>"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:102
+msgid "Add a comment"
+msgstr "Pridaj komentár"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:109
+msgid ""
+"You can use <a "
+"href=\"http://daringfireball.net/projects/markdown/basics\">Markdown</a> for"
+" formatting."
+msgstr "Môžeš využiť <a href=\"http://daringfireball.net/projects/markdown/basics\">Markdown</a> pre formátovanie."
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:113
+msgid "Add this comment"
+msgstr "Pridať tento komentár"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:132
+msgid "at"
+msgstr "o"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:152
+#, python-format
+msgid ""
+"<h3>Added on</h3>\n"
+"      <p>%(date)s</p>"
+msgstr "<h3>Pridané</h3>\n      <p>%(date)s</p>"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media.html:202
+msgid "Add media to collection"
+msgstr "Pridať výtvory do zbierky"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media_collect.html:35
+#, python-format
+msgid "Add %(title)s to collection"
+msgstr "Pridať %(title)s do kolekcie"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media_collect.html:51
+msgid "+"
+msgstr "+"
+
+#: mediagoblin/templates/mediagoblin/user_pages/media_collect.html:56
+msgid "Add a new collection"
+msgstr "Pridať novú kolekciu"
+
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:29
+msgid ""
+"You can track the state of media being processed for your gallery here."
+msgstr "Tu môžeš sledovať priebeh spracovania výtvorov pre svoju galériu."
+
+#: mediagoblin/templates/mediagoblin/user_pages/processing_panel.html:89
+msgid "Your last 10 successful uploads"
+msgstr "Tvojich 10 posledných úspešných nahratí"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:31
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:89
+#, python-format
+msgid "%(username)s's profile"
+msgstr "Profil, ktorý vlastní %(username)s"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:43
+msgid "Sorry, no such user found."
+msgstr "Desværre, fandt ikke den bruger."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:50
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:70
+msgid "Email verification needed"
+msgstr "Potrebné overenie e-mailovej adresy"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:53
+msgid "Almost done! Your account still needs to be activated."
+msgstr "Næsten færdig! Din konto skal stadig aktiveres."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:58
+msgid ""
+"An email should arrive in a few moments with instructions on how to do so."
+msgstr "Der skulle komme email om et par øjeblikke med instrukser om hvordan."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:62
+msgid "In case it doesn't:"
+msgstr "Hvis det ikke gør:"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:65
+msgid "Resend verification email"
+msgstr "Gensend verificeringsemail"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:73
+msgid ""
+"Someone has registered an account with this username, but it still has to be"
+" activated."
+msgstr "Účet s týmto prihlasovacím menom je už registrovaný, avšak ešte stále neaktívny."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:79
+#, python-format
+msgid ""
+"If you are that person but you've lost your verification email, you can <a "
+"href=\"%(login_url)s\">log in</a> and resend it."
+msgstr "Pokiaľ si to ty, ale už nemáš overovaciu e-mailovú správu, tak sa môžeš <a href=\"%(login_url)s\">prihlásiť</a> a preposlať si ju."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:96
+msgid "Here's a spot to tell others about yourself."
+msgstr "Her kan du fortælle andre om dig selv."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:101
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:118
+msgid "Edit profile"
+msgstr "Ret profil"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:106
+msgid "This user hasn't filled in their profile (yet)."
+msgstr "Dotyčný používateľ ešte nevyplnil svoj profil (zatiaľ)."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:132
+#, python-format
+msgid "View all of %(username)s's media"
+msgstr "Zhliadnuť všetky výtvory, ktoré vlastní %(username)s"
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:145
+msgid ""
+"This is where your media will appear, but you don't seem to have added "
+"anything yet."
+msgstr "Všetky tvoje výtvory sa objavia práve tu, ale zatiaľ nemáš nič pridané."
+
+#: mediagoblin/templates/mediagoblin/user_pages/user.html:157
+#: mediagoblin/templates/mediagoblin/utils/collection_gallery.html:84
+#: mediagoblin/templates/mediagoblin/utils/object_gallery.html:70
+msgid "There doesn't seem to be any media here yet..."
+msgstr "Najskôr sa tu ešte nenachádzajú žiadne výtvory..."
+
+#: mediagoblin/templates/mediagoblin/utils/collection_gallery.html:49
+msgid "(remove)"
+msgstr "(odstrániť)"
+
+#: mediagoblin/templates/mediagoblin/utils/collections.html:20
+#, python-format
+msgid "In collections (%(collected)s)"
+msgstr "V kolekciách (%(collected)s)"
+
+#: mediagoblin/templates/mediagoblin/utils/feed_link.html:21
+msgid "feed icon"
+msgstr "ikona čítačky"
+
+#: mediagoblin/templates/mediagoblin/utils/feed_link.html:23
+msgid "Atom feed"
+msgstr "Čítačka Atom"
+
+#: mediagoblin/templates/mediagoblin/utils/geolocation_map.html:25
+msgid "Location"
+msgstr "Poloha"
+
+#: mediagoblin/templates/mediagoblin/utils/geolocation_map.html:53
+#, python-format
+msgid "View on <a href=\"%(osm_url)s\">OpenStreetMap</a>"
+msgstr "Zobraziť na <a href=\"%(osm_url)s\">OpenStreetMap</a>"
+
+#: mediagoblin/templates/mediagoblin/utils/license.html:25
+msgid "All rights reserved"
+msgstr "Všetky práva vyhradené"
+
+#: mediagoblin/templates/mediagoblin/utils/pagination.html:39
+msgid "← Newer"
+msgstr "← Novšie"
+
+#: mediagoblin/templates/mediagoblin/utils/pagination.html:45
+msgid "Older →"
+msgstr "Staršie →"
+
+#: mediagoblin/templates/mediagoblin/utils/pagination.html:48
+msgid "Go to page:"
+msgstr "Prejsť na stránku:"
+
+#: mediagoblin/templates/mediagoblin/utils/prev_next.html:28
+#: mediagoblin/templates/mediagoblin/utils/prev_next.html:33
+msgid "newer"
+msgstr "novšie"
+
+#: mediagoblin/templates/mediagoblin/utils/prev_next.html:39
+#: mediagoblin/templates/mediagoblin/utils/prev_next.html:44
+msgid "older"
+msgstr "staršie"
+
+#: mediagoblin/templates/mediagoblin/utils/tags.html:20
+msgid "Tagged with"
+msgstr "Označené ako"
+
+#: mediagoblin/tools/exif.py:78
+msgid "Could not read the image file."
+msgstr "Nebolo možné prečítať obrazový súbor."
+
+#: mediagoblin/tools/response.py:30
+msgid "Oops!"
+msgstr "Hovsa!"
+
+#: mediagoblin/tools/response.py:31
+msgid "An error occured"
+msgstr "Výskyt chyby"
+
+#: mediagoblin/tools/response.py:46
+msgid "Operation not allowed"
+msgstr "Nepovolená operácia"
+
+#: mediagoblin/tools/response.py:47
+msgid ""
+"Sorry Dave, I can't let you do that!</p><p>You have tried  to perform a "
+"function that you are not allowed to. Have you been trying to delete all "
+"user accounts again?"
+msgstr "Prepáč Hocikto, toto nesmieš!</p><p>Práve si chcel vykonať funkciu, na ktorú nemáš oprávnenie. Opäť si chcel skúsiť odstrániť všetky používateľské účty?"
+
+#: mediagoblin/tools/response.py:55
+msgid ""
+"There doesn't seem to be a page at this address. Sorry!</p><p>If you're sure"
+" the address is correct, maybe the page you're looking for has been moved or"
+" deleted."
+msgstr "Zdá sa, že na tejto adrese sa nič nenachádza. Prepáč!</p><p>Pokiaľ si si istý, že adresa je správna, možno sa hľadaná stránka presunula inam, prípadne zmazala."
+
+#: mediagoblin/user_pages/forms.py:28
+msgid "I am sure I want to delete this"
+msgstr "Jednoznačne to chcem odstrániť"
+
+#: mediagoblin/user_pages/forms.py:32
+msgid "I am sure I want to remove this item from the collection"
+msgstr "Rozhodne chcem odstrániť danú položku z kolekcie"
+
+#: mediagoblin/user_pages/forms.py:35
+msgid "-- Select --"
+msgstr "-- Vybrať --"
+
+#: mediagoblin/user_pages/forms.py:37
+msgid "Include a note"
+msgstr "Pridať poznámku"
+
+#: mediagoblin/user_pages/lib.py:56
+msgid "commented on your post"
+msgstr "skomentoval tvoj príspevok"
+
+#: mediagoblin/user_pages/views.py:156
+msgid "Oops, your comment was empty."
+msgstr "Ajaj, tvoj komentár bol prázdny."
+
+#: mediagoblin/user_pages/views.py:162
+msgid "Your comment has been posted!"
+msgstr "Tvoj komentár bol zaslaný!"
+
+#: mediagoblin/user_pages/views.py:230
+msgid "You have to select or add a collection"
+msgstr "Musíš vybrať alebo pridať kolekciu"
+
+#: mediagoblin/user_pages/views.py:238
+#, python-format
+msgid "\"%s\" already in collection \"%s\""
+msgstr "\"%s\" sa už nachádza v kolekcie \"%s\""
+
+#: mediagoblin/user_pages/views.py:253
+#, python-format
+msgid "\"%s\" added to collection \"%s\""
+msgstr "\"%s pridané do kolekcie \"%s\""
+
+#: mediagoblin/user_pages/views.py:261
+msgid "Please check your entries and try again."
+msgstr "Prosím skontroluj svoje položky a skús znova."
+
+#: mediagoblin/user_pages/views.py:292
+msgid ""
+"Some of the files with this entry seem to be missing.  Deleting anyway."
+msgstr "Niektoré súbory s danou položkou zrejme chýbajú..  Odstraňujem napriek tomu."
+
+#: mediagoblin/user_pages/views.py:297
+msgid "You deleted the media."
+msgstr "Výtvor bol tebou odstránený."
+
+#: mediagoblin/user_pages/views.py:304
+msgid "The media was not deleted because you didn't check that you were sure."
+msgstr "Výtvor nebol odstránený, nakoľko chýbalo tvoje potvrdenie."
+
+#: mediagoblin/user_pages/views.py:312
+msgid "You are about to delete another user's media. Proceed with caution."
+msgstr "Chystáš sa odstrániť výtvory niekoho iného. Dbaj na to."
+
+#: mediagoblin/user_pages/views.py:370
+msgid "You deleted the item from the collection."
+msgstr "Položka bola z kolekcie odstránená."
+
+#: mediagoblin/user_pages/views.py:374
+msgid "The item was not removed because you didn't check that you were sure."
+msgstr "Položka nebola odstránená, nakoľko políčko potvrdenia nebolo označné."
+
+#: mediagoblin/user_pages/views.py:384
+msgid ""
+"You are about to delete an item from another user's collection. Proceed with"
+" caution."
+msgstr "Chystáš sa odstrániť položku z kolekcie iného používateľa. Pristupuj opatrne."
+
+#: mediagoblin/user_pages/views.py:417
+#, python-format
+msgid "You deleted the collection \"%s\""
+msgstr "Kolekcia \"%s\" úspešne odstránená."
+
+#: mediagoblin/user_pages/views.py:424
+msgid ""
+"The collection was not deleted because you didn't check that you were sure."
+msgstr "Kolekcia nebola odstránená, nakoľko políčko potrvdenia nebolo označené."
+
+#: mediagoblin/user_pages/views.py:434
+msgid ""
+"You are about to delete another user's collection. Proceed with caution."
+msgstr "Chystáš sa odstrániť kolekciu iného používateľa. Pristupuj opatrne."
