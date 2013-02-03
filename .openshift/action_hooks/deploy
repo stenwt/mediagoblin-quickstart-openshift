@@ -10,8 +10,20 @@ STORAGE=${OPENSHIFT_DATA_DIR}gmg-public
 cd $OPENSHIFT_REPO_DIR/
 
 ## MG recommends not editing these files in place
-cp paste.ini paste_local.ini
-cp mediagoblin.ini mediagoblin_local.ini
+mkdir -p ${OPENSHIFT_DATA_DIR}config
+function prep_local_config {
+    if [[ ! -f "${OPENSHIFT_DATA_DIR}config/${1}_local.ini" ]]
+    then
+        # create the locals in ${OPENSHIFT_DATA_DIR}config if they don't exist
+        cp -- "${1}.ini" "${OPENSHIFT_DATA_DIR}config/${1}_local.ini"
+    fi
+
+    # copy locals from ${OPENSHIFT_DATA_DIR}config to deploy directory
+    cp -- "${OPENSHIFT_DATA_DIR}config/${1}_local.ini" "${1}_local.ini"
+}
+
+prep_local_config mediagoblin
+prep_local_config paste
 
 ## if not already done, add a paster config
 if [ $(grep -c openshift paste_local.ini) -ne 1 ]
